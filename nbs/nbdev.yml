@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "intromicropy"
+  site-url: "https://nshea3.github.io/intromicropy"
+  description: "Intro-level microeconomics tools and examples in Python"
+  repo-branch: main
+  repo-url: "https://github.com/nshea3/intromicropy"

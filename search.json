@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "intromicropy",
+    "section": "",
+    "text": "pip install intromicropy"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "intromicropy",
+    "section": "How to use",
+    "text": "How to use\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfind_equilibrium\n\n find_equilibrium (sf, df)\n\n\nsource\n\n\ndemand\n\n demand (expr:str)\n\n\nsource\n\n\nsupply\n\n supply (expr:str)\n\n\npd = demand(\"-1.0*Q_d + 400.0\")\npd\n\n400.0 - 1.0*Q_d\n\n\n\nps = supply(\"Q_s\")\nps\n\nQ_s\n\n\n\nfind_equilibrium(ps, pd)\n\n(200.000000000000, 200.000000000000)"
+  }
+]

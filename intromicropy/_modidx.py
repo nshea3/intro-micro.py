@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nshea3.github.io',
                 'git_url': 'https://github.com/nshea3/intromicropy',
                 'lib_path': 'intromicropy'},
-  'syms': {'intromicropy.core': {'intromicropy.core.foo': ('core.html#foo', 'intromicropy/core.py')}}}
+  'syms': { 'intromicropy.core': { 'intromicropy.core.demand': ('core.html#demand', 'intromicropy/core.py'),
+                                   'intromicropy.core.find_equilibrium': ('core.html#find_equilibrium', 'intromicropy/core.py'),
+                                   'intromicropy.core.supply': ('core.html#supply', 'intromicropy/core.py')}}}
